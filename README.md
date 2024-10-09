@@ -1,5 +1,9 @@
 # NOTE ON HIPIFYING CUTLASS:
 
+
+Run on Version: cuda(11.8), LLVM(15.0.0)
+
+
 1. git clone https://github.com/NVIDIA/cutlass.git
 2. cd cutlass
 
@@ -41,4 +45,3 @@ In file included from /scratch/bcjw/hla/cutlass/tools/library/src/reduction/redu
 
 
 ### Then convert .cu to .cu.hip
-
