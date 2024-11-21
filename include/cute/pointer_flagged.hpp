@@ -40,6 +40,10 @@
 
 #include <cute/tensor.hpp>
 
+
+#ifndef POINTER_FLAGGED_HPP
+#define POINTER_FLAGGED_HPP
+
 namespace cute
 {
 
@@ -152,3 +156,5 @@ CUTE_HOST_DEVICE void print(smem_ptr_flag_bits<B> ptr)
 }
 
 } // end namespace cute
+
+#endif // POINTER_FLAGGED_HPP
